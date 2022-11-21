@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kanit:wght@600&family=Poppins:wght@300;400&display=swap');
+
+/*e.g font families:
+
+    font-family: 'Fjalla One', sans-serif;
+
+    font-family: 'Kanit', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+*/
+
+body {
+    background-color:#030304;
+}
+
+.navbar-brand {
+    font-family: 'Kanit', sans-serif;
+}
+
+.sep {
+    color: #FFD60A;
+}
+
+.nav-link {
+    font-family: 'Kanit', sans-serif;
+}
+
+.dropdown-item {
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+.navbar-inner {
+    background:transparent;
+}
+
+
+.carousel-item img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.current {
+    font-family: 'Kanit', sans-serif;
+}
+
+.current-movies {
+    margin-top: 200px;
+}
+
+.card-title {
+    font-family: 'Fjalla One', sans-serif;
+}
