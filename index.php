@@ -13,7 +13,7 @@
 
 <nav class="navbar fixed-top navbar-expand-lg ">
   <div class="container-fluid">
-    <a class="navbar-brand text-light" href="#">Movie <div class="sep">Meter</div></a>
+    <a class="navbar-brand text-light" href="#">Movie <span class="sep">Meter</span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -88,14 +88,16 @@
 <div class="container my-5">
     <div class="row">
         <div class="col-md-12"> <h3 class="current text-light">CURRENT</h3></div>
+        <span class="line rounded-pill m-3"></span>
+
 
     <div class="col">
 
-      <div class="card" style="width: 18rem;">
-        <img src="./movie-banners/wakandaforever.jpg" class="card-img-top" alt="...">
+      <div class="card rounded-0 bg-transparent" style="width: 18rem;">
+        <img src="./movie-banners/wakandaforever.jpg" class="card-img-top" alt="wakanda-banner">
         <div class="card-body">
-        <h5 class="card-title">BLACK PANTHER: <br> WAKANDA FOREVER</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <h5 class="card-title text-light">BLACK PANTHER: <br> WAKANDA FOREVER</h5>
+        <h6 class="card-subtitle mb-2 text-muted">161 min ACTION,DRAMA</h6>
        </div>
       </div>
 
@@ -103,11 +105,11 @@
 
     <div class="col">
         
-        <div class="card" style="width: 18rem;">
-          <img src="./movie-banners/minions.jpg" class="card-img-top" alt="...">
+        <div class="card bg-transparent" style="width: 18rem;">
+          <img src="./movie-banners/minions.jpg" class="card-img-top" alt="minions-banner">
           <div class="card-body">
-          <h5 class="card-title">MINIONS: <br> THE RISE OF GRU</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <h5 class="card-title text-light">MINIONS: <br> THE RISE OF GRU</h5>
+          <h6 class="card-subtitle mb-2 text-muted">88 min KIDS,COMEDY</h6>
          </div>
         </div>
   
@@ -116,24 +118,11 @@
       
       <div class="col">
         
-        <div class="card" style="width: 18rem;">
-          <img src="./movie-banners/maverick.jpg" class="card-img-top" alt="...">
+        <div class="card bg-transparent" style="width: 18rem;">
+          <img src="./movie-banners/maverick.jpg" class="card-img-top" alt="maverick-banner">
           <div class="card-body">
-          <h5 class="card-title">TOP GUN: <br> MAVERICK</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-         </div>
-        </div>
-  
-      </div>
-
-      
-      <div class="col bg.transparent">
-        
-        <div class="card" style="width: 18rem;">
-          <img src="./movie-banners/blackadam.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-          <h5 class="card-title">BLACK <br> ADAM</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <h5 class="card-title text-light">TOP GUN: <br> MAVERICK</h5>
+          <h6 class="card-subtitle mb-2 text-muted">131 min ACTION</h6>
          </div>
         </div>
   
@@ -142,29 +131,97 @@
       
       <div class="col">
         
-        <div class="card" style="width: 18rem;">
-          <img src="./movie-banners/smile.jpg" class="card-img-top" alt="...">
+        <div class="card bg-transparent border-0" style="width: 18rem;">
+          <img src="./movie-banners/blackadam.jpg" class="card-img-top" alt="blackadam-banner">
           <div class="card-body">
-          <h5 class="card-title">SMILE</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <h5 class="card-title text-light">BLACK <br> ADAM</h5>
+          <h6 class="card-subtitle mb-2 text-muted">124 min ACTION,DRAMA</h6>
          </div>
         </div>
   
       </div>
 
       
- 
-
-
-
-
+      <div class="col">
         
+        <div class="card bg-transparent" style="width: 18rem;">
+          <img src="./movie-banners/smile.jpg" class="card-img-top" alt="smile-banner">
+          <div class="card-body">
+          <h5 class="card-title text-light">SMILE</h5>
+          <h6 class="card-subtitle mb-2 text-muted">116 min HORROR</h6>
+         </div>
+        </div>
+  
+      </div>
+
+</div>
+</div>
+</div>
 
 
+<div class="coming-movies">
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-12"> <h3 class="current text-light">COMING SOON</h3></div>
+        <span class="line rounded-pill m-3"></span>
 
 
+    <div class="col">
 
+      <div class="card rounded-0 bg-transparent" style="width: 18rem;">
+        <img src="./movie-banners/lyle.jpg" class="card-img-top" alt="lyle-banner">
+        <div class="card-body">
+        <h5 class="card-title text-light">LYLE,LYLE, <br> CROCODILE</h5>
+        <span class="release">December 6th</span>
+        <h6 class="card-subtitle mb-2 text-muted">107 min KIDS,COMEDY</h6>
+       </div>
+      </div>
 
+    </div>
+
+    <div class="col">
+        
+        <div class="card bg-transparent" style="width: 18rem;">
+          <img src="./movie-banners/calljane.jpg" class="card-img-top" alt="calljane-banner">
+          <div class="card-body">
+          <h5 class="card-title text-light">CALL<br> JANE</h5>
+          <span class="release">December 7th</span>
+          <h6 class="card-subtitle mb-2 text-muted">121 min DRAMA,COMEDY</h6>
+         </div>
+        </div>
+  
+      </div>
+
+      
+      <div class="col">
+        
+        <div class="card bg-transparent" style="width: 18rem;">
+          <img src="./movie-banners/avatar5.webp" class="card-img-top" alt="avatar-banner">
+          <div class="card-body">
+          <h5 class="card-title text-light">AVATAR: THE WAY <br> OF WATER</h5>
+          <span class="release">December 13th</span>
+          <h6 class="card-subtitle mb-2 text-muted">131 min ACTION,DRAMA</h6>
+         </div>
+        </div>
+  
+      </div>
+
+      
+      <div class="col">
+        
+        <div class="card bg-transparent border-0" style="width: 18rem;">
+          <img src="./movie-banners/pussinboots.jpg" class="card-img-top" alt="pussinboots-banner">
+          <div class="card-body">
+          <h5 class="card-title text-light">PUSS IN <br> BOOTS</h5>
+          <span class="release">December 21st</span>
+          <h6 class="card-subtitle mb-2 text-muted">124 min KIDS,DRAMA</h6>
+         </div>
+        </div>
+  
+      </div>
+
+      
+      
 
 </div>
 </div>
@@ -182,24 +239,45 @@
 
 
 
-<!-- <div class="black-panther">
-    <img src="./movie-headers/blackpanther.jpg" alt="blackpanther">
-</div> -->
+<div class="footer-section">
+  <div class="container">
+    <div class="row">
+
+  <div class="col-md-12 text-center text-light"> <div class="sep">HERE TO GIVE YOU THAT LITTLE PUSH</div></div>
+  <div class="col-md-12 text-center text-light"><h2 class="brand2">Start sharing your Experience today.</h2></div>
+  <div class="col-md-12 mb-5 text-center"><button type="button" class="btn btn-outline-warning">Sign In</button></div>
 
 
 
-        <!-- <div class="p-5 bg-image" class="img-fluid" style="background-image: url('./movie-headers/blackpanther.jpg');" >
-        </div> -->
+
+<div class="col-md-3"><h2 class="brand text-light">Movie <span class="sep">Meter</span></h2><p class="business-text">Copyright	&#169; 2022 MovieMeter, <br> All Rights Reserved</p></div>
+<div class="col-md-3"><a href="#">Home</a> <a href="#">Categories</a> <br> <a href="#">Reviews</a> <a href="#">About</a> <br> <a href="#">Contact</a></div>
+<div class="col-md-3"><a href="#">Terms and Conditions</a> <br> <a href="#">Privacy Policy</a> <br> <a href="#">Cookie Policy</a></div>
+<div class="col-md-3"><p class="text-light">Need Help?</p><p class="business-text">help@movie.co</p><br><a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a> <a href="https://twitter.com/"><i class="bi bi-twitter"></i></a><a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a></div>
 
 
 
-<!-- 
-<div class="hero-img bg-image" style="background-image: url('./img/test2.png'); height: 310px;"></div> -->
 
 
-<!-- 
-<div class="p-5 bg-image" class="img-fluid" style="background-image: url('./movie-headers/blackpanther.jpg'); background-size:cover;" >
-        </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
 
 
 

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kanit:wght@600&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 /*e.g font families:
 
@@ -9,6 +10,10 @@
     font-family: 'Poppins', sans-serif;
 
 */
+
+* {
+    border-radius: 0 !important;
+  }
 
 body {
     background-color:#030304;
@@ -56,4 +61,49 @@ body {
 
 .card-title {
     font-family: 'Fjalla One', sans-serif;
+}
+
+.card-subtitle {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    border-radius: none;
+}
+
+.line {
+    border-bottom: 5px solid #FFD60A;
+    border-radius: 200px;
+}
+
+.release {
+    color: #FFD60A;
+}
+
+
+.coming-movies {
+    margin-top: 200px;
+}
+
+.footer-section  {
+    background-color: #18191b;
+    margin-top: 200px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.brand {
+    font-family: 'Kanit', sans-serif;
+}
+
+.brand2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.business-text {
+    color: #7a7c80;
 }
