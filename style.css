@@ -51,6 +51,7 @@ body {
     opacity: 0.5;
 }
 
+
 .current {
     font-family: 'Kanit', sans-serif;
 }
@@ -78,6 +79,8 @@ body {
 
 .release {
     color: #FFD60A;
+    font-family: 'Kanit', sans-serif;
+
 }
 
 
@@ -91,8 +94,15 @@ body {
 }
 
 
+
+
 a {
     text-decoration: none;
+    color: #7a7c80;
+}
+
+a:hover {
+    color: white;
 }
 
 .brand {
@@ -106,4 +116,13 @@ a {
 
 .business-text {
     color: #7a7c80;
+}
+
+.help-text {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-outline-warning {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
 }
