@@ -83,17 +83,51 @@ style="
 
 </div> -->
 
+<div class="banner">
+  <a href="https://www.youtube.com/watch?v=_Z3QKkl1WyM">
+<img src="./movie-banners/blackbanner.jpg" class="img-fluid"  alt="blackbanner">
+</a>
+<i class="bi bi-play-fill"></i>
+</div>
+
+
 
 
 <div class="movie-info">
     <div class="container">
         <div class="row">
             <h2 class="col-md-12 my-3 movie-title text-light">BLACK PANTHER: WAKANDA FOREVER</h2>
+            <div class="col-md-8 text-muted"><i class="bi bi-clock"></i> 161 min <span class="badge rounded-pill text-bg-warning">ACTION</span> <span class="badge rounded-pill text-bg-warning">DRAMA</span></div>
 
-        <div class="col-md-8 text-muted">In Marvel Studios’ Black Panther: Wakanda Forever, strijden koningin Ramonda (Angela Bassett), Shuri (Letitia Wright), M'Baku (Winston Duke), Okoye (Danai Gurira) en de Dora Milaje (waaronder Florence Kasumba) na de dood van Koning T’Challa om hun koninkrijk te beschermen.</div>
+        <div class="col-md-8 text-muted mt-3">In Marvel Studios' Black Panther: Wakanda Forever, Queen Ramonda (Angela Bassett), Shuri (Letitia Wright), M'Baku (Winston Duke), Okoye (Danai Gurira) and the Dora Milaje (including Florence Kasumba) battle after the death of King T'Challa to protect their kingdom.</div>
 
-        <h2 class="col-md-12 my-5 text-light">Reviews</h2>
+        <h2 class="col-md-12 my-5 movie-title text-light">Reviews</h2>
 
+
+        <h1>
+        <?php
+
+try {
+    $db = new PDO("mysql:host=localhost;dbname=moviemeter", "root", "");
+
+    $query = $db->prepare("SELECT * FROM klanten ");
+    $query->execute();
+    $result = $query->fetchAll(PDO::FETCH_ASSOC);
+    foreach($result as $data) {
+        echo $data["name"] .  " ";
+        echo $data["lastName"] . "<br>";
+        echo $data["review"]. "<br>" . "<br>";
+        
+    }
+
+}   catch(PDOException $e) {
+    die("Error! :" . $e->getMessage());
+}
+ 
+    ?>
+    </h1>
+
+  
 
 
 
