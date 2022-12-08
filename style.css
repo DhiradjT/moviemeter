@@ -148,3 +148,13 @@ a:hover {
     
 }
 
+.review-text {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+.section.trailer {
+    background-image: url(./movie-banners/TechinTwo-Popcorn.webp);
+}
+
