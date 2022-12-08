@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<nav class="navbar fixed-top navbar-expand-lg ">
+<nav class="navbar navbar-expand-lg ">
   <div class="container-fluid">
     <a class="navbar-brand text-light" href="#">Movie <span class="sep">Meter</span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,10 +84,7 @@ style="
 </div> -->
 
 <div class="banner">
-  <a href="https://www.youtube.com/watch?v=_Z3QKkl1WyM">
-<img src="./movie-banners/blackbanner.jpg" class="img-fluid"  alt="blackbanner">
-</a>
-<i class="bi bi-play-fill"></i>
+<img src="./movie-banners/blackbanner.jpg" class="img-fluid" alt="blackbanner">
 </div>
 
 
@@ -101,10 +98,10 @@ style="
 
         <div class="col-md-8 text-muted mt-3">In Marvel Studios' Black Panther: Wakanda Forever, Queen Ramonda (Angela Bassett), Shuri (Letitia Wright), M'Baku (Winston Duke), Okoye (Danai Gurira) and the Dora Milaje (including Florence Kasumba) battle after the death of King T'Challa to protect their kingdom.</div>
 
-        <h2 class="col-md-12 my-5 movie-title text-light">Reviews</h2>
+        <h2 class="col-md-12 my-5 movie-title text-light">Reviews &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button type="button" class="btn btn-warning rounded">Add Review</button></h2>
 
 
-        <h1>
+        <h3>
         <?php
 
 try {
@@ -115,29 +112,57 @@ try {
     $result = $query->fetchAll(PDO::FETCH_ASSOC);
     foreach($result as $data) {
         echo $data["name"] .  " ";
-        echo $data["lastName"] . "<br>";
-        echo $data["review"]. "<br>" . "<br>";
+        echo $data["lastName"] . " ";
+        echo $data["review"]. "<br>" . "<br>";  	
         
     }
 
 }   catch(PDOException $e) {
     die("Error! :" . $e->getMessage());
 }
+
+echo  "(" . array_sum($data) . ")";
  
     ?>
-    </h1>
+    </h3>
 
+
+    <h2 class="col-md-12 mt-5 movie-title text-light">Trailer</h2>
+
+
+    <iframe width="560" height="650" src="https://www.youtube.com/embed/_Z3QKkl1WyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
 
 
 
 
 
-
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/e0a4ea6349.js" crossorigin="anonymous"></script>
         </div>
     </div>
 </div>
 
 
 
+<div class="footer-section">
+  <div class="container">
+    <div class="row">
+
+  <div class="col-md-12 text-center text-light"> <div class="sep">HERE TO GIVE YOU THAT LITTLE PUSH</div></div>
+  <div class="col-md-12 text-center text-light"><h2 class="brand2">Start sharing your Experience today.</h2></div>
+  <div class="col-md-12 mb-5 text-center"><button type="button" class="btn btn-outline-warning rounded">Sign In</button></div>
+
+
+<div class="col-md-3 col-sm-6"><h2 class="brand text-light">Movie <span class="sep">Meter</span></h2><p class="business-text">Copyright	&#169;2022 MovieMeter, <br> All Rights Reserved</p></div>
+<div class="col-md-3 col-sm-6"><span class="text-light help-text">Navigation</span> <br><a href="#">Home</a> &nbsp; &nbsp;<a href="#">Categories</a> <br> <a href="#">Reviews</a> <a href="#">About</a> <br> <a href="#">Contact</a> <a href="#">Sign In</a></div>
+<div class="col-md-3 col-sm-6"><span class="text-light help-text">Terms And Policies</span><br><a href="#">Terms and Conditions</a> <br> <a href="#">Privacy Policy</a> <br> <a href="#">Cookie Policy</a></div>
+<div class="col-md-3 col-sm-6"><span class="text-light help-text">Need Help?</span><br><span class="business-text">
+<a href="mailto:help@movie.co">help@movie.co</a></span><br><a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a><a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a></div>
+
+
+    </div>
+  </div>
+</div>
 

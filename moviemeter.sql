@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 30 nov 2022 om 15:25
+-- Gegenereerd op: 08 dec 2022 om 12:50
 -- Serverversie: 10.4.24-MariaDB
 -- PHP-versie: 8.1.6
 
@@ -42,9 +42,11 @@ CREATE TABLE `klanten` (
 --
 
 INSERT INTO `klanten` (`id`, `name`, `lastName`, `review`, `image`) VALUES
-(1, 'Piet ', 'Drees', 'Dit was echt een leuke film. ', ''),
-(2, 'Dhiradj ', 'Tangali', 'Goede film. ', ''),
-(3, 'Dr', 'Tiwari', 'Goede acteurs. ', '');
+(1, 'JONATHAN', 'BRIE', 'Each man and woman is resplendent in Ruth Carter\'s traditional costumes. Indigenous dialects are spoken amid the space flights, museum heists, and car chases. ', ''),
+(2, 'CARLOS ', 'M', 'This movie lived up to its hype. it\'s possibly one of the best films of its kind, and I especially liked the development of all the characters. ', ''),
+(3, 'CORY', 'WOODROOF', 'I caught Black Panther again and my opinions on the film is unchanged. It\'s a well made action film, but nothing special. ', ''),
+(4, 'NATHAN', 'SKY', 'It was about time we saw a Marvel superhero blockbuster starring mostly African-American actors and achieving succes', ''),
+(5, 'DHIRADJ', 'TANGALI', 'It was a great movie', '');
 
 --
 -- Indexen voor geëxporteerde tabellen
@@ -64,7 +66,7 @@ ALTER TABLE `klanten`
 -- AUTO_INCREMENT voor een tabel `klanten`
 --
 ALTER TABLE `klanten`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
