@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>MovieMeter - Home</title>
+      <title>Review - Black Adam </title>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
       <link rel="stylesheet" href="style.css">
@@ -84,7 +84,7 @@
   </div> -->
 
   <div class="banner">
-  <img src="./movie-banners/blackbanner.jpg" class="img-fluid" alt="blackbanner">
+  <img src="./movie-banners/blackadamreview.jpeg" class="img-fluid"  alt="blackbanner">
   </div>
 
 
@@ -93,16 +93,16 @@
   <div class="movie-info">
       <div class="container">
           <div class="row">
-              <h2 class="col-md-12 my-3 movie-title text-light">BLACK PANTHER: WAKANDA FOREVER</h2>
-              <div class="col-md-8 text-muted"><i class="bi bi-clock"></i> 161 min <span class="badge rounded-pill text-bg-warning">ACTION</span> <span class="badge rounded-pill text-bg-warning">DRAMA</span></div>
+              <h2 class="col-md-12 my-3 movie-title text-light">BLACK ADAM</h2>
+              <div class="col-md-8 text-muted"><i class="bi bi-clock"></i> 124 min <span class="badge rounded-pill text-bg-warning">ACTION</span> <span class="badge rounded-pill text-bg-warning">DRAMA</span> <span class="badge rounded-pill text-bg-warning">COMEDY</span></div>
 
-          <div class="col-md-8 text-muted mt-3">In Marvel Studios' Black Panther: Wakanda Forever, Queen Ramonda (Angela Bassett), Shuri (Letitia Wright), M'Baku (Winston Duke), Okoye (Danai Gurira) and the Dora Milaje (including Florence Kasumba) battle after the death of King T'Challa to protect their kingdom.</div>
+          <div class="col-md-8 text-muted mt-3">Nearly 5,000 years ago, Black Adam received extraordinary powers from the ancient gods, after which he was soon locked away in a tomb. Now he is free again and ready to unleash his own form of justice on the modern world.</div>
 
 
 <?php
     
         $db = new PDO("mysql:host=localhost;dbname=moviemeter", "root", "");
-          $query = $db->prepare("SELECT * FROM klanten ");
+          $query = $db->prepare("SELECT * FROM blackadam ");
             $query->execute();
 
       $result = $query->fetchAll(PDO::FETCH_ASSOC);
@@ -127,7 +127,7 @@
   try {
       $db = new PDO("mysql:host=localhost;dbname=moviemeter", "root", "");
 
-      $query = $db->prepare("SELECT * FROM klanten ");
+      $query = $db->prepare("SELECT * FROM blackadam ");
       $query->execute();
       $result = $query->fetchAll(PDO::FETCH_ASSOC);
       foreach($result as $data) {
@@ -157,11 +157,7 @@
       </section>
 
 
-      <iframe width="560" height="650" src="https://www.youtube.com/embed/_Z3QKkl1WyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-
-
-
+        <iframe width="560" height="650" src="https://www.youtube.com/embed/HvKXujyZALA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

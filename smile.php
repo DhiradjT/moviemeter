@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>MovieMeter - Home</title>
+      <title>Review - Smile</title>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
       <link rel="stylesheet" href="style.css">
@@ -56,35 +56,10 @@
   </nav>
 
 
-  <!-- <div
 
-  class="p-3 text-center bg-image"
-
-  style="
-
-    background-image: url('./movie-headers/blackpanther.jpg');
-    height: 400px;
-
-  "   
-
-  >
-
-  <div class="mask">
-
-    <div class="d-flex justify-content-center align-items-center w-60">
-
-      <div class="text-white">
-
-      </div>
-
-    </div>
-
-  </div>
-
-  </div> -->
 
   <div class="banner">
-  <img src="./movie-banners/blackbanner.jpg" class="img-fluid" alt="blackbanner">
+  <img src="./movie-banners/smilereview.jpg" class="img-fluid"  alt="blackbanner">
   </div>
 
 
@@ -94,15 +69,15 @@
       <div class="container">
           <div class="row">
               <h2 class="col-md-12 my-3 movie-title text-light">BLACK PANTHER: WAKANDA FOREVER</h2>
-              <div class="col-md-8 text-muted"><i class="bi bi-clock"></i> 161 min <span class="badge rounded-pill text-bg-warning">ACTION</span> <span class="badge rounded-pill text-bg-warning">DRAMA</span></div>
+              <div class="col-md-8 text-muted"><i class="bi bi-clock"></i> 116 min <span class="badge rounded-pill text-bg-warning">HORROR</span> <span class="badge rounded-pill text-bg-warning">DRAMA</span></div>
 
-          <div class="col-md-8 text-muted mt-3">In Marvel Studios' Black Panther: Wakanda Forever, Queen Ramonda (Angela Bassett), Shuri (Letitia Wright), M'Baku (Winston Duke), Okoye (Danai Gurira) and the Dora Milaje (including Florence Kasumba) battle after the death of King T'Challa to protect their kingdom.</div>
+          <div class="col-md-8 text-muted mt-3">After witnessing a bizarre and traumatic incident with a patient, Dr. Rose Cotter (Sosie Bacon) faces ominous events she cannot explain.</div>
 
 
 <?php
     
         $db = new PDO("mysql:host=localhost;dbname=moviemeter", "root", "");
-          $query = $db->prepare("SELECT * FROM klanten ");
+          $query = $db->prepare("SELECT * FROM smile");
             $query->execute();
 
       $result = $query->fetchAll(PDO::FETCH_ASSOC);
@@ -127,7 +102,7 @@
   try {
       $db = new PDO("mysql:host=localhost;dbname=moviemeter", "root", "");
 
-      $query = $db->prepare("SELECT * FROM klanten ");
+      $query = $db->prepare("SELECT * FROM smile ");
       $query->execute();
       $result = $query->fetchAll(PDO::FETCH_ASSOC);
       foreach($result as $data) {
@@ -157,12 +132,11 @@
       </section>
 
 
-      <iframe width="560" height="650" src="https://www.youtube.com/embed/_Z3QKkl1WyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="650" src="https://www.youtube.com/embed/BcDK7lkzzsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
     
-
-
-
-
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 13 dec 2022 om 15:10
+-- Gegenereerd op: 13 dec 2022 om 19:48
 -- Serverversie: 10.4.24-MariaDB
 -- PHP-versie: 8.1.6
 
@@ -22,6 +22,26 @@ SET time_zone = "+00:00";
 --
 CREATE DATABASE IF NOT EXISTS `moviemeter` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 USE `moviemeter`;
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `blackadam`
+--
+
+CREATE TABLE `blackadam` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `lastName` varchar(255) NOT NULL,
+  `review` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `blackadam`
+--
+
+INSERT INTO `blackadam` (`id`, `name`, `lastName`, `review`) VALUES
+(1, 'Dhiradj', 'Tangali', 'Dit was echt een hele goede film met een hele sterke storyline. ');
 
 -- --------------------------------------------------------
 
@@ -64,6 +84,14 @@ CREATE TABLE `maverick` (
   `review` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Gegevens worden geëxporteerd voor tabel `maverick`
+--
+
+INSERT INTO `maverick` (`id`, `name`, `lastName`, `review`) VALUES
+(1, 'Dhiradj ', 'Tangali', 'Dit was echt een leuke film'),
+(2, 'Bart', 'Bakker', 'Dit was een geweldige film');
+
 -- --------------------------------------------------------
 
 --
@@ -78,8 +106,44 @@ CREATE TABLE `minions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
+-- Gegevens worden geëxporteerd voor tabel `minions`
+--
+
+INSERT INTO `minions` (`id`, `name`, `lastName`, `review`) VALUES
+(1, 'Dhiradj', 'Tangali', 'Super leuke film');
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `smile`
+--
+
+CREATE TABLE `smile` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `lastName` varchar(255) NOT NULL,
+  `review` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `smile`
+--
+
+INSERT INTO `smile` (`id`, `name`, `lastName`, `review`) VALUES
+(1, 'Dhiradj', 'Tangali', 'Matige horror film'),
+(2, 'Tom ', 'Holland', 'This was a really terrifying movie. It was worth my money.'),
+(3, 'Kendall', 'Knight', 'Again a decent horror movie, not scary enough. '),
+(4, 'Scott ', 'Fellows', 'Great movie, enojoyed every moment of it.');
+
+--
 -- Indexen voor geëxporteerde tabellen
 --
+
+--
+-- Indexen voor tabel `blackadam`
+--
+ALTER TABLE `blackadam`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexen voor tabel `klanten`
@@ -100,8 +164,20 @@ ALTER TABLE `minions`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexen voor tabel `smile`
+--
+ALTER TABLE `smile`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT voor geëxporteerde tabellen
 --
+
+--
+-- AUTO_INCREMENT voor een tabel `blackadam`
+--
+ALTER TABLE `blackadam`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT voor een tabel `klanten`
@@ -113,13 +189,19 @@ ALTER TABLE `klanten`
 -- AUTO_INCREMENT voor een tabel `maverick`
 --
 ALTER TABLE `maverick`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT voor een tabel `minions`
 --
 ALTER TABLE `minions`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT voor een tabel `smile`
+--
+ALTER TABLE `smile`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

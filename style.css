@@ -94,8 +94,6 @@ body {
 }
 
 
-
-
 a {
     text-decoration: none;
     color: #7a7c80;
@@ -127,9 +125,6 @@ a:hover {
     font-size: 15px;
 }
 
-
-
-
 .movie-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -138,16 +133,7 @@ a:hover {
 .banner img {
     width: 100%;
     opacity: 0.7;
-}
-
-
-
-.bi-play-fill {
-    position: relative;
-    bottom: 380px;
-    left: 900px;
-    color: white;
-    
+    height: 50%;
 }
 
 .review-text {
