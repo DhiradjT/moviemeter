@@ -99,28 +99,24 @@
           <div class="col-md-8 text-muted mt-3">In Marvel Studios' Black Panther: Wakanda Forever, Queen Ramonda (Angela Bassett), Shuri (Letitia Wright), M'Baku (Winston Duke), Okoye (Danai Gurira) and the Dora Milaje (including Florence Kasumba) battle after the death of King T'Challa to protect their kingdom.</div>
 
 
-          <?php
-          
-
-          $db = new PDO("mysql:host=localhost;dbname=moviemeter", "root", "");
-
+<?php
+    
+        $db = new PDO("mysql:host=localhost;dbname=moviemeter", "root", "");
           $query = $db->prepare("SELECT * FROM klanten ");
-          $query->execute();
+            $query->execute();
 
-          $result = $query->fetchAll(PDO::FETCH_ASSOC);
-      foreach($result as $data) {
-        $data["name"].  " ";
-        $data["lastName"] . " " . ":" . " ";
-        $data["review"]. "<br>" . "<br>";  	
-          
-      }
-          
-          ?>
+      $result = $query->fetchAll(PDO::FETCH_ASSOC);
+        foreach($result as $data) {
+          $data["name"].  " ";
+          $data["lastName"] . " " . ":" . " ";
+          $data["review"]. "<br>" . "<br>";  	
+        }
+?>
 
 
 
 
-          <h2 class="col-md-12 my-5 movie-title text-light">Reviews <?php echo  "(" . count($data) . ")"; ?> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button type="button" class="btn btn-warning rounded">Add Review</button></h2>
+          <h2 class="col-md-12 my-5 movie-title text-light">Reviews <?php echo  "(" . array_sum($data) . ")"; ?> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button type="button" class="btn btn-warning rounded">Add Review</button></h2>
 
 
           <div class="card bg-dark shadow">
@@ -135,8 +131,8 @@
       $query->execute();
       $result = $query->fetchAll(PDO::FETCH_ASSOC);
       foreach($result as $data) {
-        echo $data["name"].  " ";
-          echo $data["lastName"] . " " . ":" . " ";
+        echo strtoupper($data["name"]).  " ";
+          echo strtoupper($data["lastName"]) . " " . ":" . " ";
           echo $data["review"]. "<br>" . "<br>";  	
           
       }
