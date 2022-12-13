@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
   <html lang="en">
   <head>
       <meta charset="UTF-8">
@@ -84,7 +84,7 @@
   </div> -->
 
   <div class="banner">
-  <img src="./movie-banners/blackbanner.jpg" class="img-fluid" alt="blackbanner">
+  <img src="./movie-banners/tomcruise.jpg" class="img-fluid" alt="blackbanner">
   </div>
 
 
@@ -93,10 +93,10 @@
   <div class="movie-info">
       <div class="container">
           <div class="row">
-              <h2 class="col-md-12 my-3 movie-title text-light">BLACK PANTHER: WAKANDA FOREVER</h2>
-              <div class="col-md-8 text-muted"><i class="bi bi-clock"></i> 161 min <span class="badge rounded-pill text-bg-warning">ACTION</span> <span class="badge rounded-pill text-bg-warning">DRAMA</span></div>
+              <h2 class="col-md-12 my-3 movie-title text-light">TOP GUN: MAVERICK</h2>
+              <div class="col-md-8 text-muted"><i class="bi bi-clock"></i> 131 min <span class="badge rounded-pill text-bg-warning">ACTION</span></div>
 
-          <div class="col-md-8 text-muted mt-3">In Marvel Studios' Black Panther: Wakanda Forever, Queen Ramonda (Angela Bassett), Shuri (Letitia Wright), M'Baku (Winston Duke), Okoye (Danai Gurira) and the Dora Milaje (including Florence Kasumba) battle after the death of King T'Challa to protect their kingdom.</div>
+          <div class="col-md-8 text-muted mt-3">After more than thirty years of service as one of the Top Gun pilots, Pete "Maverick" Mitchell (Tom Cruise) still feels in place in the Navy. As a courageous test pilot, he always seeks his limits and he dodges promotions that would prevent him from flying.</div>
 
 
 <?php
@@ -155,11 +155,8 @@
 
       <section class="trailer">
       </section>
-
-
-      <iframe width="560" height="650" src="https://www.youtube.com/embed/_Z3QKkl1WyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
-
+      <iframe width="560" height="650" src="https://www.youtube.com/embed/giXco2jaZ_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -192,4 +189,3 @@
       </div>
     </div>
   </div>
-
