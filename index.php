@@ -22,32 +22,35 @@
       <ul class="navbar-nav ms-auto">
         
         <li class="nav-item">
-          <a class="nav-link text-light" aria-current="page" href="#">Home</a>
+          <a class="nav-link text-light" aria-current="page" href="index.php">Home</a>
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link text-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link text-light dropdown-toggle" href="categories.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Categories
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item " href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Comedy</a></li>
-            <li><a class="dropdown-item" href="#">Horror</a></li>
-            <li><a class="dropdown-item" href="#">Kids</a></li>
+            <li><a class="dropdown-item" href="action.php">Action</a></li>
+            <li><a class="dropdown-item" href="comedy.php">Comedy</a></li>
+            <li><a class="dropdown-item" href="horror.php">Horror</a></li>
+            <li><a class="dropdown-item" href="kids.php">Kids</a></li>
           </ul>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">Reviews</a>
+          <a class="nav-link text-light" href="reviews.php">Reviews</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">About</a>
+          <a class="nav-link text-light" href="about.php">About</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">Contact</a>
+          <a class="nav-link text-light" href="signin.php">Sign In</a>
         </li>
+
+      
+
 
       </ul>
 
