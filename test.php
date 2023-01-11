@@ -65,51 +65,38 @@
 
 
 
-<div class="container-fluid">
-<div class="row">
 
-    <div class="col">
 
-    <h2>Login</h2>
 
-    <form method="post" action="">
-        <label class="text-light">E - mail*</label>
-        <br>
-        <input type="text" name="email" placeholder="Your Email">
-        <br>
-        <label class="text-light">Username*</label>
-        <br>
-        <input type="text" name="username" placeholder="Your Username">
-        <br>
-        <label class="text-light">Password*</label>
-        <br>
-        <input type="password" name="password" placeholder="Your Password">
-        <br>
-        <input type="submit" name="verzenden" value="Log In">
-    </form>
-    </div>
+<div class="container">
+  <div class="col">
 
-    <div class="col">
-    <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+  <form method="post" action="">
+    <label for="name" class="text-light">Name</label>
+    <br>
+    <input type="text" id="name" name="name" placeholder="Your Username">
+    <br>
+    <label for="email" class="text-light">Email</label>
+    <br>
+    <input type="text" id="email" name="email" placeholder="Your Email">
+    <br>
+    <label for="password" class="text-light">Password</label>
+    <br>
+    <input type="password" id="password" name="password" placeholder="Your Password">
+    <br>
+    <label for="password_confirmation" class="text-light">Repeat Password</label>
+    <br>
+    <input type="password" id="password_confirmation" name="password_confirmation" placeholder="Repeat Password">
+    <br>
+    <input type="submit" name="verzenden" value="Sign Up">
+
+  </form>
+
+
+  
   </div>
+  
 </div>
-
-</div>
-
-
-
-
-
-
-</div>
-</div>
-
-
 
 
 
