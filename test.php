@@ -88,7 +88,8 @@
     <br>
     <input type="password" id="password_confirmation" name="password_confirmation" placeholder="Repeat Password">
     <br>
-    <input type="submit" name="verzenden" value="Sign Up">
+    <input type="submit" name="login" value="login">
+    <input type="submit" name="register" value="register">
 
   </form>
 
@@ -100,7 +101,7 @@
 
 <?php
 
-      case 'login'
+      case 'login':
       $titleSuffix = '| Login';
       if(isset($_POST['login'])) {
         $result = checkLogin();
@@ -128,7 +129,7 @@
       }
       break;
 
-      case 'register'
+      case 'register':
         $titleSuffix = '| Register';
 
         if(isset($_POST['register'])) {
