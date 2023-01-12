@@ -98,6 +98,66 @@
   
 </div>
 
+<?php
+
+      case 'login'
+      $titleSuffix = '| Login';
+      if(isset($_POST['login'])) {
+        $result = checkLogin();
+        // var_dump($result);die;
+        switch ($result) {
+          case 'ADMIN':
+            header("Location: admin.php");
+            // include once "../Templates/admin/home.php;"
+            break;
+          case 'MEMBER':
+            header("Location: member.php");
+            // include once "../Templates/admin/member.php;"
+            break;
+          case 'FAILURE':
+            $message = "Email of password is niet correct ingevuld!";
+            // include once "../Templates/login.php;"
+            break;
+          case 'INCOMPLETE':
+            $message = "Formulier niet volledig ingevuld";
+            // include once "../Templates/login.php;"
+        }
+      }
+      else {
+          include_once "../Template/login.php";
+      }
+      break;
+
+      case 'register'
+        $titleSuffix = '| Register';
+
+        if(isset($_POST['register'])) {
+
+          $result = makeRegistration();
+          switch ($result) {
+            case 'SUCCES':
+              header("Location: /home");
+              break;
+            case 'INCOMPLETE':
+              header("Location:");
+              $message = "Niet alle velden correct ingevuld";
+              include_once "../Templates/register.php";
+              break;
+            case 'EXIST':
+              $message = "Gebruikr betaat al";
+              include_once "../Templates/register.php";
+              break;
+          }
+        }
+        else {
+          include_once "../Templates/register.php";
+        }
+        break;
+
+
+
+?>
+
 
 
 
