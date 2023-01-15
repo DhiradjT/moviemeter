@@ -146,3 +146,39 @@ a:hover {
     background-image: url(./movie-banners/TechinTwo-Popcorn.webp);
 }
 
+
+.about-h2 {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.about-p {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+.hero-about {
+    position: relative;
+    bottom: 100px;
+}
+
+
+.read-more {
+    font-family: 'Kanit', sans-serif;
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+}
+
+.more-section {
+    background-color: #FFD60A;
+    height: 400px;
+}
+
+.end {
+    margin-top: 100px;
+}
+
