@@ -182,3 +182,11 @@ a:hover {
     margin-top: 100px;
 }
 
+.head-sup {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+}
+
+.sup-text {
+    font-family: 'Kanit', sans-serif;
+}

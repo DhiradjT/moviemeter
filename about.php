@@ -88,22 +88,25 @@
   <div class="container">
     <div class="row">
 
-    <div class="col-md-12 mb-5 text-center text-light">Why Choose MovieMeter?</div>
+    <div class="col-md-12 mt-3 mb-5 text-center"><div class="head-sup">Why Choose MovieMeter?</div></div>
 
-    <div class="col-md-4"><div class="icon text-center"><img src="./icons/24-hours.png" alt="chat"></div>
+    <div class="col-md-4"><div class="icon text-center"><img src="./icons/24-hours.png" alt="chat">
 <p class="sup-text text-center">Amazing 24/7 <br>
 Support Team</p>
 </div>
+</div>
 
-<div class="col-md-4"><div class="icon"><img src="./icons/rating.png" alt="happy"></div>
+<div class="col-md-4"><div class="icon text-center"><img src="./icons/rating.png" alt="happy">
 <p class="sup-text text-center">Family Friendly <br> 
 Comunity</p>
 </div>
+</div>
 
-<div class="col-md-4"><div class="icon"><img src="./icons/consumer.png" alt="chat"></div>
+<div class="col-md-4"><div class="icon text-center"><img src="./icons/consumer.png" alt="chat">
 <p class="sup-text text-center">Happy <br>
  Customers 
 </p>
+</div>
 </div>
 
 
