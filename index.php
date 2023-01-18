@@ -46,7 +46,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-light" href="signin.php">Sign In</a>
+          <a class="nav-link text-light" href="signup.php">Sign Up</a>
         </li>
 
       
