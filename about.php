@@ -64,10 +64,9 @@
     <div class="row">
 
     <div class="col-md-6 mt-5">
-        <h2 class="about-h2">A movie application <br> that wins.</h2>
-        <p class="about-p">Welcome to our movie review website! We are a group of three <br> movie enthusiasts who have a passion for designing and <br> developing websites. On our site, you'll find a collection of <br> reviews written by people like you, who have watched a wide variety <br> of films and want to share their thoughts and <br> experiences with others.</p>
+        <h2 class="about-h2 mt-5">A movie application <br> that wins.</h2>
+        <p class="about-p">Welcome to our movie review website! We are a group of three movie enthusiasts who have a passion for designing and developing websites. On our site, you'll find a collection of reviews written by people like you, who have watched a wide variety of films and want to share their thoughts and experiences with others.</p>
         <div class="read-more1"><button type="button" class="btn btn-warning rounded">Read More</button></div>
-
     </div>
 
 
@@ -90,23 +89,25 @@
 
     <div class="col-md-12 mt-3 mb-5 text-center"><div class="head-sup">Why Choose MovieMeter?</div></div>
 
-    <div class="col-md-4"><div class="icon text-center"><img src="./icons/24-hours.png" alt="chat">
-<p class="sup-text text-center">Amazing 24/7 <br>
-Support Team</p>
-</div>
-</div>
-
-<div class="col-md-4"><div class="icon text-center"><img src="./icons/rating.png" alt="happy">
-<p class="sup-text text-center">Family Friendly <br> 
-Comunity</p>
-</div>
+    <div class="col-md-4 text-center">
+        <img src="./icons/24-hours.png" alt="chat">
+        <p class="sup-text text-center">Amazing 24/7 <br>
+        Support Team
+      </p>
 </div>
 
-<div class="col-md-4"><div class="icon text-center"><img src="./icons/consumer.png" alt="chat">
-<p class="sup-text text-center">Happy <br>
- Customers 
-</p>
+<div class="col-md-4 text-center">
+    <img src="./icons/rating.png" alt="happy">
+    <p class="sup-text text-center">Family Friendly <br> 
+    Community
+  </p>
 </div>
+
+<div class="col-md-4 text-center">
+    <img src="./icons/consumer.png" alt="chat">
+    <p class="sup-text text-center">Happy <br>
+    Customers 
+  </p> 
 </div>
 
 
@@ -125,7 +126,7 @@ Comunity</p>
 <div class="end">
 <div class="container ">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 mb-5">
             <h2 class="about-h2">We're glad you found it <br> engaging and <br> informative.</h2>
         </div>
 
@@ -135,7 +136,31 @@ Comunity</p>
     </div>
         
 
-
     </div>
 </div>
 </div>
+
+
+<div class="footer-section">
+  <div class="container">
+    <div class="row">
+
+  <div class="col-md-12 text-center text-light"> <div class="sep">HERE TO GIVE YOU THAT LITTLE PUSH</div></div>
+  <div class="col-md-12 text-center text-light"><h2 class="brand2">Start sharing your Experience today.</h2></div>
+  <div class="col-md-12 mb-5 text-center"><button type="button" class="btn btn-outline-warning rounded">Sign In</button></div>
+
+
+<div class="col-md-3 col-sm-6"><h2 class="brand text-light">Movie <span class="sep">Meter</span></h2><p class="business-text">Copyright	&#169;2022 MovieMeter, <br> All Rights Reserved</p></div>
+<div class="col-md-3 col-sm-6"><span class="text-light help-text">Navigation</span> <br><a href="#">Home</a> &nbsp; &nbsp;<a href="#">Categories</a> <br> <a href="#">Reviews</a> <a href="#">About</a> <br> <a href="#">Contact</a> <a href="#">Sign In</a></div>
+<div class="col-md-3 col-sm-6"><span class="text-light help-text">Terms And Policies</span><br><a href="#">Terms and Conditions</a> <br> <a href="#">Privacy Policy</a> <br> <a href="#">Cookie Policy</a></div>
+<div class="col-md-3 col-sm-6"><span class="text-light help-text">Need Help?</span><br><span class="business-text">
+<a href="mailto:help@movie.co">help@movie.co</a></span><br><a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a><a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a></div>
+
+
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/e0a4ea6349.js" crossorigin="anonymous"></script>
