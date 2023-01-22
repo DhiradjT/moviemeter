@@ -35,11 +35,7 @@
               <li><a class="dropdown-item" href="horror.php">Horror</a></li>
               <li><a class="dropdown-item" href="kids.php">Kids</a></li>
             </ul>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link text-light" href="reviews.php">Reviews</a>
-          </li>
+</li>
 
           <li class="nav-item">
             <a class="nav-link text-light" href="about.php">About</a>
@@ -175,7 +171,7 @@
 
     <div class="col-md-12 text-center text-light"> <div class="sep">HERE TO GIVE YOU THAT LITTLE PUSH</div></div>
     <div class="col-md-12 text-center text-light"><h2 class="brand2">Start sharing your Experience today.</h2></div>
-    <div class="col-md-12 mb-5 text-center"><button type="button" class="btn btn-outline-warning rounded">Sign In</button></div>
+    <div class="col-md-12 mb-5 text-center"><button type="button" class="btn btn-outline-warning rounded">Sign Up</button></div>
 
 
   <div class="col-md-3 col-sm-6"><h2 class="brand text-light">Movie <span class="sep">Meter</span></h2><p class="business-text">Copyright	&#169;2022 MovieMeter, <br> All Rights Reserved</p></div>

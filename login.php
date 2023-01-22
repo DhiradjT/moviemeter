@@ -65,20 +65,20 @@
 
         <div class="card shadow" style="width: 30rem;">
   <div class="card-body">
-    <h2 class="card-title form-title text-center">Sign Up</h2>
+    <h2 class="card-title form-title text-center">Login</h2>
     <h5 class="card-subtitle form-text mb-2 text-center">Share and chat with people!</h5>
     <p class="card-text">
       
     <form method="post" action="">
-            <label for=""><b>Mail</b></label>
+            <label for="">Mail</label>
             <br>
             <input type="text" placeholder="mail@website.com" name="mail" class="rounded-pill">
             <br>
-            <label for=""><b>Username</b></label>
+            <label for="">Username</label>
             <br>
             <input type="text" placeholder="Username" name="mail" class="rounded-pill">
             <br>
-            <label for=""><b>Password</b></label>
+            <label for="">Password</label>
             <br>
             <input type="password" placeholder="Max. 12 characters" name="mail" class="rounded-pill">
             <br>
@@ -88,8 +88,11 @@
   
   </p>
   
-  <p class="text-center"> Already a user? <br>
-  <a class="login" href="login.php">Login</a>
+  <p class="text-center">Not registered yet?
+  <a class="login" href="signup.php">Create an Account</a>
+  <br>
+  <br>
+  <a href="forget.php">Forget password?</a>
   </p>
   </div>
 </div>

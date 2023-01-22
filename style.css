@@ -196,6 +196,52 @@ a:hover {
     color: white;
 }
 
+.signup {
+    background-image: url(./background/Login\ page\ design.png) ;
+    background-size: cover;
+    max-width: 100%;
+}
+
+
+.form-card {
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-title {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.form-text {
+    padding-left: 10px;
+    padding-top: 10px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+form {
+    padding: 30px;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 390px;
+    padding: 10px;
+    border: 2px solid #707070;
+}
+
+a.login {
+    text-decoration: underline;
+    color: black;
+}
+
 
 /* Media query */
 
